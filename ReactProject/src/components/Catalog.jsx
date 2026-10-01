@@ -15,7 +15,7 @@ export default function Catalog ({ products }) {
             <hr />
             {products.map((product) => (
                 <ProductCard
-                key={ProductCard.discount}
+                key={product.id}
                 product={product}
                 generalDiscount={generalDiscount}
                 
